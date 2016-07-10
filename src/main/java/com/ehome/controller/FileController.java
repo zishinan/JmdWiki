@@ -32,6 +32,7 @@ public class FileController {
 		FilesBean filesBean = new FilesBean();
 		if(files.getName().contains(".js") 
 				|| files.getName().contains(".html") 
+				|| files.getName().contains(".git") 
 				|| files.getName().contains("index.md") 
 				|| files.getName().contains(".jpg") 
 				|| files.getName().contains(".docx") 
