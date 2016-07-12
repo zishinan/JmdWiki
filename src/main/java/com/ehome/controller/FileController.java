@@ -39,6 +39,7 @@ public class FileController {
 				|| files.getName().contains(".png") 
 				|| files.getName().contains(".xls") 
 				|| files.getName().contains(".xlsx") 
+				|| files.getName().contains(".css") 
 				|| files.getName().contains(".pdf")){
 			return;
 		}
